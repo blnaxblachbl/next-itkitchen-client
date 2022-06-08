@@ -1,6 +1,6 @@
-# cra-template-itkitchen-admin
+# next-itkitchen-client
 
-The template to setup next with apollo
+The template to setup next ja app with apollo
 
 ## Usage
 
