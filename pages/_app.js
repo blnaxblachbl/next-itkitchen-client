@@ -53,7 +53,6 @@ MyApp.getInitialProps = async (appContext) => {
     if (req && req.headers) {
         try {
             appProps['headers'] = req.headers
-            appProps['clientIp'] = req.headers['x-forwarded-for'] || req.connection.remoteAddress
         } catch (e) {
             console.error(e)
         }
@@ -62,7 +61,6 @@ MyApp.getInitialProps = async (appContext) => {
                 const _data = cookie.parse(req.headers.cookie)
                 const { token } = _data
                 appProps['token'] = token ? token : ''
-                appProps['headers'] = req.headers
             } catch (e) {
                 console.error(e)
             }

@@ -1,11 +1,31 @@
 {
+    "name": "client",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev -p 3001",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "deploy": "NODE_ENV=production pm2 start --attach npm -- start"
+    },
     "dependencies": {
-        "@apollo/client": "latest",
-        "apollo-upload-client": "latest",
-        "cookie": "latest",
-        "graphql": "latest",
-        "luxon": "latest",
-        "react-toastify": "latest",
-        "styled-components": "latest"
+      "@apollo/client": "latest",
+      "apollo-upload-client": "latest",
+      "cookie": "latest",
+      "graphql": "latest",
+      "luxon": "latest",
+      "next": "latest",
+      "react": "latest",
+      "react-dom": "latest",
+      "react-toastify": "latest",
+      "styled-components": "latest"
+    },
+    "devDependencies": {
+      "babel-plugin-inline-react-svg": "latest",
+      "babel-plugin-styled-components": "latest",
+      "eslint": "latest",
+      "eslint-config-next": "latest"
     }
-}
+  }
+  
