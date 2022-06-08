@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps, token, headers }) {
     return (
         <>
             <Head>
-                <title>Портал Ya1</title>
+                <title>ITKitchen nextjs client</title>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet"></link>
