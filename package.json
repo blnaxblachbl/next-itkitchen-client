@@ -1,0 +1,9 @@
+{
+    "@apollo/client": "latest",
+    "apollo-upload-client": "latest",
+    "cookie": "latest",
+    "graphql": "latest",
+    "luxon": "latest",
+    "react-toastify": "latest",
+    "styled-components": "latest"
+}
